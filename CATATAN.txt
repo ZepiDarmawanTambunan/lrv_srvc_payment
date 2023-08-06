@@ -1,0 +1,6 @@
+- composer require midtrans/midtrans-php
+- pakai midtrans sandbox
+- baca dokumentasi midtrans
+- baca bagian built in interface (SNAP)
+- baca bagian handle after payment (sample for various payment methods dan signature calculator)
+- di env set SERVER_PORT=8001

@@ -72,11 +72,11 @@ class OrderController extends Controller
 
         $order->save();
 
-        return $midtransSnapUrl;
-        // return response()->json([
-        //     'status' => 'success',
-        //     'data' => $order
-        // ]);
+        // return $midtransSnapUrl;
+        return response()->json([
+            'status' => 'success',
+            'data' => $order
+        ]);
     }
 
     private function getMidtransSnapUrl($params){

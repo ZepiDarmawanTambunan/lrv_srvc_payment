@@ -80,7 +80,7 @@ class WebhookController extends Controller
 
         if($order->status === 'success'){
             // memberikan akses premium -> service course
-            createPremiumAccess([
+            $test = createPremiumAccess([
                 'user_id' => $order->user_id,
                 'course_id' => $order->course_id
             ]);
